@@ -1,0 +1,51 @@
+.popup-content {
+  display: flex;
+}
+
+
+.chart-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  background-color: #ffffff;
+}
+
+.cell-info {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cell-info p {
+  margin: 5px 0;
+}
+
+.cell-info button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #4286f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cell-info button:hover {
+  background-color: #2b70e2;
+}
+
+.cell-info button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4286f4;
+}
+
+.cell-info button:active {
+  background-color: #1a57b3;
+}
+
+.space::before {
+  content: "\00a0"; /* Неразрывный пробел */
+  margin-right: 8px; /* Установите нужный отступ между элементами */
+}
